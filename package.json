@@ -1,0 +1,16 @@
+{
+  "name": "mockape-site",
+  "version": "1.0.0",
+  "description": "MockApe Virtual Trading Platform",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site built successfully'",
+    "start": "npx http-server -p $PORT -o"
+  },
+  "keywords": ["trading", "crypto", "mockape"],
+  "author": "MockApe",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
