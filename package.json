@@ -2,13 +2,13 @@
   "name": "mockape-site",
   "version": "1.0.0",
   "description": "MockApe Virtual Trading Platform",
-  "main": "index.html",
+  "main": "start.js",
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
     "build": "echo 'Static site built successfully'",
-    "start": "npx http-server -p $PORT -o",
+    "start": "node start.js",
     "postinstall": "echo 'Dependencies installed successfully'",
     "dev": "npx http-server -p 3000 -o"
   },
