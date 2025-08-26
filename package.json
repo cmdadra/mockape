@@ -10,7 +10,7 @@
   "keywords": ["trading", "crypto", "mockape"],
   "author": "MockApe",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "http-server": "^14.1.1"
   }
 }
