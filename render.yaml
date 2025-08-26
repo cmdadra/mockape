@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mockape-site
+    env: static
+    buildCommand: echo "Static site - no build required"
+    startCommand: npx http-server -p $PORT -o
+    envVars:
+      - key: NODE_ENV
+        value: production
