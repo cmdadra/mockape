@@ -2,8 +2,10 @@ services:
   - type: web
     name: mockape-site
     env: static
-    buildCommand: npm install --no-optional --no-audit
+    buildCommand: npm ci --no-optional --no-audit --prefer-offline
     startCommand: npx http-server -p $PORT -o
     envVars:
       - key: NODE_ENV
         value: production
+      - key: NPM_CONFIG_PREFER_OFFLINE
+        value: "true"
