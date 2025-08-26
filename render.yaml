@@ -1,11 +1,5 @@
 services:
   - type: web
     name: mockape-site
-    env: node
-    buildCommand: npm ci --no-optional --no-audit --prefer-offline
+    buildCommand: npm install
     startCommand: npm start
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: NPM_CONFIG_PREFER_OFFLINE
-        value: "true"
