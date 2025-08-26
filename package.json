@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "MockApe Virtual Trading Platform",
   "main": "index.html",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "echo 'Static site built successfully'",
     "start": "npx http-server -p $PORT -o"
@@ -11,6 +14,6 @@
   "author": "MockApe",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^14.1.1"
+    "http-server": "14.1.1"
   }
 }
