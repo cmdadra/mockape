@@ -2,7 +2,7 @@ services:
   - type: web
     name: mockape-site
     env: static
-    buildCommand: echo "Static site - no build required"
+    buildCommand: npm install --no-optional --no-audit
     startCommand: npx http-server -p $PORT -o
     envVars:
       - key: NODE_ENV
