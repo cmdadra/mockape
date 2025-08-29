@@ -1,5 +1,9 @@
 services:
   - type: web
     name: mockape-site
+    runtime: node
     buildCommand: yarn install
     startCommand: node start.js
+    envVars:
+      - key: NODE_ENV
+        value: production
