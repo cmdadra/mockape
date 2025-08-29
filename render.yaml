@@ -1,5 +1,5 @@
 services:
   - type: web
     name: mockape-site
-    buildCommand: npm install
-    startCommand: npm start
+    buildCommand: yarn install
+    startCommand: node start.js
